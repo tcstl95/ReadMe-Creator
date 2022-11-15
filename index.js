@@ -1,9 +1,6 @@
-// TODO: Include packages needed for this application
+// Using inquirer for index.js file//
 const inquirer = require('inquirer');
 const fs= require('fs');
-
-// TODO: Create an array of questions for user input
-
 
 const askUser =() =>{
 return inquirer.prompt([

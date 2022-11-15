@@ -34,6 +34,7 @@ const badgeInit=()=>{
     );
 });
 }
+// Calling function//
 badgeInit();
    
 
