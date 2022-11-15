@@ -1,9 +1,10 @@
-// Declaring function in order to display License badge onto a ReadMe//
+//Using  inquirer in order for user to be given prompts via node//
 const inquirer= require('inquirer');
+//Using fs as well//
 const fs=require('fs');
+// Creating function in order for license badge to display on ReadMe//
 const renderLicenseBadge=()=>{
-    // Using inquirer to display prompt for user to chose badge license to display//
-  return inquirer.prompt([
+    return inquirer.prompt([
       {
         type:'checkbox',
         message: 'Choose the following license badge',
@@ -17,14 +18,14 @@ const renderLicenseBadge=()=>{
     ])
     
 };
-// Function in order for users selection to be displayed on ReadMe//
+//Creating a section on the ReadMe regarding badge selection
 const generateBadges=({badges})=>
 `
-Badge Selected:${badges}.
+#Badge Selected:${badges}.
 
 
 `
-// function to initalize application//
+
 const badgeInit=()=>{
   renderLicenseBadge()
 .then((answers) => {
@@ -34,11 +35,23 @@ const badgeInit=()=>{
     );
 });
 }
-// Calling function//
 badgeInit();
    
 
 
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {}
 
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {}
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}
+
+`;
+}
 
 module.exports = generateMarkdown;

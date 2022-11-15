@@ -1,10 +1,10 @@
 <DOCTYPE, README.md>
-      Title:ccd.
-      Description: .
-      Installation: .
-      Usage: .
-      License: .
-      Github: c.
-      Email: 
+      #Title:Generator.
+      #Description: Generator.
+     #Installation: Readme.
+      #Usage: tcstl95.
+      #License: MIT.
+      #Github: tcstl95.
+      #Email: tcstl95
 
      
