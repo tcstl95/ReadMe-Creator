@@ -1,8 +1,9 @@
-// Declaring function in order to display License badge onto a ReadMe"
+// Declaring function in order to display License badge onto a ReadMe//
 const inquirer= require('inquirer');
 const fs=require('fs');
 const renderLicenseBadge=()=>{
-    return inquirer.prompt([
+    // Using inquirer to display prompt for user to chose badge license to display//
+  return inquirer.prompt([
       {
         type:'checkbox',
         message: 'Choose the following license badge',
