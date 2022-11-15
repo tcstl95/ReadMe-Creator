@@ -1,7 +1,7 @@
 // Using inquirer for index.js file//
 const inquirer = require('inquirer');
 const fs= require('fs');
-
+// Creating function to ask user certain prompts//
 const askUser =() =>{
 return inquirer.prompt([
 
@@ -46,7 +46,7 @@ return inquirer.prompt([
     
 }
 
-// TODO: Create a function to write README file
+// Creating function to generate user input onto ReadMe File//
 const generateREADME=({Title, Description, Installation,Usage,License,Github,Email})=>
      `<DOCTYPE, README.md>
       Title:${Title}.
@@ -60,7 +60,7 @@ const generateREADME=({Title, Description, Installation,Usage,License,Github,Ema
      `
 
 
-// TODO: Create a function to initialize app
+// function for initalization//
 const init = () => {
 askUser()
 .then((answers) => {
