@@ -48,7 +48,7 @@ return inquirer.prompt([
 
 // Creating function to generate user input onto ReadMe File//
 const generateREADME=({Title, Description, Installation,Usage,License,Github,Email})=>
-     `
+     ` 
       # Title:${Title}.
       # Description: ${Description}.
       # Installation: ${Installation}.
