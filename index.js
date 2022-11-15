@@ -51,7 +51,7 @@ const generateREADME=({Title, Description, Installation,Usage,License,Github,Ema
      `<DOCTYPE, README.md>
       # Title:${Title}.
       # Description: ${Description}.
-     # Installation: ${Installation}.
+      # Installation: ${Installation}.
       # Usage: ${Usage}.
       # License: ${License}.
       # Github: ${Github}.
