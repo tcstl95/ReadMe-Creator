@@ -17,12 +17,14 @@ const renderLicenseBadge=()=>{
     ])
     
 };
+// Function in order for users selection to be displayed on ReadMe//
 const generateBadges=({badges})=>
 `
 Badge Selected:${badges}.
 
 
 `
+// function to initalize application//
 const badgeInit=()=>{
   renderLicenseBadge()
 .then((answers) => {
