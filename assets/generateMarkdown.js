@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Declaring function in order to display License badge onto a ReadMe"
 const inquirer= require('inquirer');
 const fs=require('fs');
 const renderLicenseBadge=()=>{
@@ -23,7 +22,6 @@ Badge Selected:${badges}.
 
 
 `
-
 const badgeInit=()=>{
   renderLicenseBadge()
 .then((answers) => {
